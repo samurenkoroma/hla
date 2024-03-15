@@ -1,4 +1,4 @@
-APP=greenhouse
+APP=hla
 
 build:
 	docker build  -t samurenkoroma/$(APP):0.0.6 .
