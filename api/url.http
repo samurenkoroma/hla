@@ -1,0 +1,17 @@
+POST http://{{server.host}}:{{server.port}}/url
+Content-Type: application/json
+Authorization: Basic {{auth.user}} {{auth.pass}}
+
+{
+  "url": "http://google.com",
+  "alias": "googleww"
+}
+
+###
+
+GET http://{{server.host}}:{{server.port}}/url/c1Xa0a
+Content-Type: application/json
+Authorization: Basic {{auth.user}} {{auth.pass}}
+
+
+###
