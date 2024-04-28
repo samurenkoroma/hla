@@ -1,17 +1,4 @@
+GET http://{{server.host}}:{{server.port}}/books
+Content-Type: application/json
+Authorization: Basic {{auth.user}} {{auth.pass}}
 
-POST http://{{server.host}}:{{server.port}}/file/upload
-Content-Type: multipart/form-data; boundary=WebAppBoundary
-
---WebAppBoundary
-Content-Disposition: form-data; name="file"; filename="file.txt"
-
-< /home/roma/workspace/scans/social-architecture-ru.epub
---WebAppBoundary--
-
-
-###
-
-### /home/roma/workspace/scans/social-architecture-ru.epub
-###/home/roma/workspace/scans/Арутюнов А.А., Ершов А.В. - Дополнительные задачи по линейной алгебре.pdf
-###/home/roma/workspace/scans/Дроны с нуля.djvu
-###/home/roma/workspace/scans/Циолковский_К_Э_Труды_по_ракетной_технике_1947.djvu

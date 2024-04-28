@@ -1,6 +1,6 @@
 module github.com/samurenkoroma/lha
 
-go 1.22
+go 1.22.1
 
 require (
 	github.com/fatih/color v1.16.0
